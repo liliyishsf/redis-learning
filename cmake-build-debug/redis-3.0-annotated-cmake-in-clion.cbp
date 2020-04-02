@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="redis-3.0-annotated-cmake-in-clion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\deps\;CMake Files\deps\hiredis\;CMake Files\deps\linenoise\;CMake Files\deps\lua\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis-server">
+				<Option output="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/redis-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/hiredis"/>
+					<Add directory="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/linenoise"/>
+					<Add directory="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-server"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis-server/fast">
+				<Option output="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/redis-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/hiredis"/>
+					<Add directory="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/linenoise"/>
+					<Add directory="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-server/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis-cli">
+				<Option output="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/redis-cli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/hiredis"/>
+					<Add directory="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/linenoise"/>
+					<Add directory="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-cli"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis-cli/fast">
+				<Option output="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/redis-cli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/hiredis"/>
+					<Add directory="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/linenoise"/>
+					<Add directory="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-cli/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis">
+				<Option output="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/hiredis/libhiredis.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis/fast">
+				<Option output="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/hiredis/libhiredis.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linenoise">
+				<Option output="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/linenoise/liblinenoise.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/linenoise"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 linenoise"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linenoise/fast">
+				<Option output="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/linenoise/liblinenoise.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/linenoise"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 linenoise/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lua">
+				<Option output="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/lua/liblua.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/lua"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 lua"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lua/fast">
+				<Option output="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/lua/liblua.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/lua"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 lua/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/hiredis/async.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/hiredis/async.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/hiredis/dict.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/hiredis/dict.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/hiredis/hiredis.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/hiredis/hiredis.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/hiredis/net.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/hiredis/net.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/hiredis/sds.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/hiredis/sds.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/linenoise/linenoise.c">
+			<Option target="linenoise"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/linenoise/linenoise.h">
+			<Option target="linenoise"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lapi.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lapi.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lauxlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lauxlib.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lbaselib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lcode.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lcode.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/ldblib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/ldebug.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/ldebug.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/ldo.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/ldo.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/ldump.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lfunc.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lfunc.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lgc.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lgc.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/linit.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/liolib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/llex.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/llex.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lmathlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lmem.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lmem.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/loadlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lobject.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lobject.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lopcodes.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lopcodes.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/loslib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lparser.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lparser.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lstate.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lstate.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lstring.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lstring.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lstrlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/ltable.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/ltable.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/ltablib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/ltm.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/ltm.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lua.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lua.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lua_cjson.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lua_cmsgpack.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lua_struct.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/luac.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lundump.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lundump.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lvm.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lvm.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lzio.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/lzio.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/print.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/strbuf.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/src/strbuf.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/adlist.c">
+			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/adlist.h">
+			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/ae.c">
+			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/ae.h">
+			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/anet.c">
+			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/anet.h">
+			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/aof.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/bio.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/bio.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/bitops.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/blocked.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/cluster.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/cluster.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/config.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/config.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/crc16.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/crc64.c">
+			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/crc64.h">
+			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/db.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/debug.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/dict.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/dict.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/endianconv.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/endianconv.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/hyperloglog.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/intset.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/intset.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/lzf_c.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/lzf_d.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/memtest.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/multi.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/networking.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/notify.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/object.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/pqsort.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/pqsort.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/pubsub.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/rand.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/rand.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/rdb.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/rdb.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/redis-cli.c">
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/redis.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/redis.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/release.c">
+			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/release.h">
+			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/replication.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/rio.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/rio.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/scripting.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/sds.c">
+			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/sds.h">
+			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/sentinel.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/setproctitle.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/sha1.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/sha1.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/slowlog.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/slowlog.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/sort.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/syncio.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/t_hash.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/t_list.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/t_set.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/t_string.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/t_zset.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/util.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/util.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/ziplist.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/ziplist.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/zipmap.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/zipmap.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/zmalloc.c">
+			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/src/zmalloc.h">
+			<Option target="redis-server"/>
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/hiredis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\hiredis\"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/linenoise/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\linenoise\"/>
+		</Unit>
+		<Unit filename="/home/liliyi/CLionProjects/redis-3.0-annotated/deps/lua/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\lua\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

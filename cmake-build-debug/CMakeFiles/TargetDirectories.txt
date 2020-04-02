@@ -1,0 +1,15 @@
+/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/CMakeFiles/redis-server.dir
+/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/CMakeFiles/redis-cli.dir
+/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/CMakeFiles/rebuild_cache.dir
+/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/CMakeFiles/edit_cache.dir
+/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/hiredis/CMakeFiles/rebuild_cache.dir
+/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/hiredis/CMakeFiles/hiredis.dir
+/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/hiredis/CMakeFiles/edit_cache.dir
+/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/linenoise/CMakeFiles/rebuild_cache.dir
+/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/linenoise/CMakeFiles/linenoise.dir
+/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/linenoise/CMakeFiles/edit_cache.dir
+/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/lua/CMakeFiles/rebuild_cache.dir
+/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/lua/CMakeFiles/lua.dir
+/home/liliyi/CLionProjects/redis-3.0-annotated/cmake-build-debug/deps/lua/CMakeFiles/edit_cache.dir

@@ -1,0 +1,2 @@
+/home/liliyi/CLionProjects/redis-3.0-annotated/deps/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/liliyi/CLionProjects/redis-3.0-annotated/deps/cmake-build-debug/CMakeFiles/edit_cache.dir

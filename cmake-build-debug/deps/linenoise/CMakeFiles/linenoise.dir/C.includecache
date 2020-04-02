@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liliyi/CLionProjects/redis-3.0-annotated/deps/linenoise/linenoise.c
+termios.h
+-
+unistd.h
+-
+stdlib.h
+-
+stdio.h
+-
+errno.h
+-
+string.h
+-
+stdlib.h
+-
+ctype.h
+-
+sys/types.h
+-
+sys/ioctl.h
+-
+unistd.h
+-
+linenoise.h
+/home/liliyi/CLionProjects/redis-3.0-annotated/deps/linenoise/linenoise.h
+
+/home/liliyi/CLionProjects/redis-3.0-annotated/deps/linenoise/linenoise.h
+

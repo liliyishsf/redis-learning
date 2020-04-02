@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib..a  CMakeFiles/..dir/hiredis.c.o CMakeFiles/..dir/net.c.o CMakeFiles/..dir/dict.c.o CMakeFiles/..dir/sds.c.o CMakeFiles/..dir/async.c.o
+/usr/bin/ranlib lib..a
